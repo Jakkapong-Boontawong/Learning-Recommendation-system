@@ -1,0 +1,51 @@
+name,media,description
+Python for Beginners,video,Learn the basics of Python programming with interactive video lessons.
+Advanced Python Programming,book,Dive deep into advanced Python techniques and best practices.
+Database Fundamentals,video,"Explore core concepts of relational databases, including SQL and data modeling."
+Modern Database Systems,book,An in-depth look into modern database architectures and NoSQL solutions.
+Python Data Science,video,"Utilize Python for data analysis, visualization, and introductory machine learning."
+SQL for Data Analysis,book,Master SQL queries and data analysis techniques with real-world examples.
+Data Structures in Python,video,Understand and implement fundamental data structures in Python through engaging videos.
+Machine Learning Concepts,book,A comprehensive guide to machine learning algorithms and their applications.
+Web Development Basics,video,"Learn HTML, CSS, and JavaScript to build responsive websites from scratch."
+Advanced Web Development,book,Master modern web frameworks and advanced techniques in full-stack development.
+Introduction to AI,video,Discover the fundamentals of artificial intelligence and its practical applications.
+Deep Learning with TensorFlow,book,"Build and deploy deep learning models using TensorFlow with clear, step-by-step instructions."
+Data Visualization Techniques,video,Explore various tools and techniques to visualize data effectively.
+Statistical Analysis with R,book,Learn statistical analysis and data visualization using R programming and real datasets.
+Natural Language Processing,video,Understand the basics of NLP and build simple language models through video tutorials.
+Advanced NLP Techniques,book,Dive into advanced natural language processing methods and applications.
+Big Data Analytics,video,Learn to work with big data technologies and frameworks for large-scale data analysis.
+Data Mining Concepts,book,Discover data mining algorithms and techniques to uncover hidden patterns in data.
+Cloud Computing Essentials,video,An introduction to cloud computing and its core services for beginners.
+Advanced Cloud Architecture,book,Master advanced cloud deployment strategies and architecture design principles.
+Cybersecurity Fundamentals,video,Understand the basics of cybersecurity and how to protect digital assets.
+Ethical Hacking,book,Learn ethical hacking techniques and strategies to secure systems against cyber threats.
+Mobile App Development,video,Create mobile applications for Android and iOS using modern development frameworks.
+Advanced Mobile Development,book,Explore advanced mobile development practices and app optimization techniques.
+Game Development Basics,video,Learn the fundamentals of game design and development with interactive lessons.
+Advanced Game Design,book,Master advanced game design principles and creative techniques for immersive experiences.
+UX/UI Design Fundamentals,video,Understand the basics of user experience and user interface design for digital products.
+Advanced UX/UI Strategies,book,Learn advanced strategies for creating intuitive and engaging user interfaces.
+Digital Marketing Essentials,video,An introduction to digital marketing strategies and essential tools.
+Advanced Digital Marketing,book,A comprehensive guide to advanced digital marketing techniques and analytics.
+Business Analytics with Excel,video,Learn how to perform business analytics using Excel and data visualization tools.
+Advanced Business Analytics,book,Master advanced analytics techniques and predictive modeling for business insights.
+Project Management Fundamentals,video,Understand the basics of project management and agile methodologies.
+Advanced Project Management,book,Learn advanced project management strategies and leadership techniques.
+Financial Analysis with Python,video,Use Python to analyze financial data and create insightful visualizations.
+Advanced Financial Modeling,book,Master complex financial modeling and forecasting techniques using Python.
+Introduction to Robotics,video,Learn the fundamentals of robotics and automation technology.
+Advanced Robotics Systems,book,Explore advanced robotics systems and the integration of AI in robotics.
+Digital Photography Basics,video,Discover the basics of digital photography and effective photo editing.
+Advanced Photography Techniques,book,Learn advanced photography techniques and creative image processing.
+Graphic Design Fundamentals,video,Understand the principles of graphic design and visual communication.
+Advanced Graphic Design,book,Master advanced design techniques and creative visual storytelling.
+Introduction to Virtual Reality,video,Explore the basics of virtual reality and immersive digital experiences.
+Advanced Virtual Reality Development,book,Learn advanced VR development techniques for creating interactive applications.
+Augmented Reality Essentials,video,Understand the fundamentals of augmented reality and its practical uses.
+Advanced Augmented Reality,book,Master advanced AR development and interactive design strategies.
+Introduction to IoT,video,Learn the basics of the Internet of Things and connected device technologies.
+Advanced IoT Systems,book,Explore advanced IoT concepts and build scalable connected systems.
+Sustainable Energy Solutions,video,Discover renewable energy technologies and sustainable practices for a greener future.
+Advanced Renewable Energy,book,A comprehensive guide to advanced renewable energy systems and innovations.
