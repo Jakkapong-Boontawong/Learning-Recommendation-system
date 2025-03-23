@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 # Sample performance data for a student
 performance_data = {   
-    "course_name": ["Python for Beginners", "Python Data Science", "Advanced Virtual Reality Development"],
+    "course_name": ["Python for Beginners", "Database Fundamentals", "Advanced Virtual Reality Development"],
     "score": [55, 85, 90]
 }
 performance_df = pd.DataFrame(performance_data)
