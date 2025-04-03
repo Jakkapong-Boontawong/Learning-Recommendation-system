@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block head %}
+    <title>Learning Recommendation System</title>
+    <link rel="stylesheet" href="{{ url_for('static' , filename='css/index.css')}}">
+{% endblock %}
+
+{% block body %}
+<div class="container">
+    <h1>Recommended Courses for Improvement</h1>
+    <ul class="list-group">
+        {% for course in recommendations %}
+            <li class="list-group-item">{{ course }}</li>
+        {% endfor %}
+    </ul>
+</div>
+{% endblock %}

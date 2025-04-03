@@ -1,4 +1,4 @@
-from flask import Flask, render_template_string, request
+from flask import Flask, render_template, request
 import pandas as pd
 from sentence_transformers import SentenceTransformer, util
 
@@ -14,9 +14,7 @@ performance_df = pd.DataFrame(performance_data)
 catalog_df = pd.read_csv("dummy_courses_50.csv")
 
 def recommend_improvement_single_student(performance_df, catalog_df, k_lowest, top_n, preferred_media_list):
-    """
-    Recommend courses for a single student to improve in their weak topics.
-    """
+
     # Sort performance data by score (lowest first) and select the k lowest courses.
     weak_topics = performance_df.sort_values(by='score', ascending=True).head(k_lowest)
     
@@ -78,25 +76,7 @@ def home():
     recommendations = recommend_improvement_single_student(
         performance_df, catalog_df, k_lowest=2, top_n=3, preferred_media_list=["video", "interactive"]
     )
-    
-    # A simple HTML template displaying the recommendations
-    html_template = """
-    <!DOCTYPE html>
-    <html>
-    <head>
-        <title>Course Recommendations</title>
-    </head>
-    <body>
-        <h1>Recommended Courses for Improvement</h1>
-        <ul>
-            {% for course in recommendations %}
-                <li>{{ course }}</li>
-            {% endfor %}
-        </ul>
-    </body>
-    </html>
-    """
-    return render_template_string(html_template, recommendations=recommendations)
+    return render_template("index.html", recommendations=recommendations)
 
 if __name__ == '__main__':
     app.run(debug=True)
